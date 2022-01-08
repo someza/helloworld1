@@ -1,0 +1,30 @@
+{
+  "name": "随便",
+  "description": "随便",
+  "keywords": [
+    "随便"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID，可生成UUID的网站: https://www.uuidgenerator.net",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/mething",
+      "required": true
+    }
+  },
+  "website": "https://github.com/someza/mething",
+  "repository": "https://github.com/someza/mething",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
